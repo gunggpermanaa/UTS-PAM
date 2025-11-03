@@ -1,26 +1,51 @@
-# Aplikasi Pemesanan Makanan
+# 🍽️ Aplikasi Pemesanan Makanan
 **Agung Permana — NIM 1237050093**
 
-Aplikasi Android sederhana yang dirancang untuk membantu pengguna dalam melihat dan memesan makanan secara cepat dan praktis.  
-Aplikasi ini menampilkan daftar berbagai jenis makanan tradisional Indonesia seperti **Combro**, **Seblak**, **Batagor**, dan lainnya.
+Aplikasi ini adalah aplikasi Android sederhana yang dirancang untuk membantu pengguna dalam melihat dan memesan makanan secara cepat dan praktis.  
+Aplikasi menampilkan daftar berbagai jenis makanan tradisional Indonesia seperti **Combro**, **Seblak**, **Batagor**, dan lainnya.
 
-Pengguna dapat melakukan proses **Sign Up**, **Login**, lalu diarahkan ke halaman **Menu Utama** yang menampilkan daftar makanan lengkap beserta keterangan singkat.  
+Pengguna dapat melakukan proses **Sign Up**, **Login**, lalu diarahkan ke halaman **Menu Utama** yang menampilkan daftar makanan lengkap beserta keterangan singkat tentang masing-masing makanan.  
 Ketika pengguna memilih salah satu menu, aplikasi akan membuka halaman **Order** untuk melakukan pemesanan.
 
 ---
 
-### Tampilan Aplikasi
+### 📱 Tampilan Aplikasi
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/156ede92-d3b6-4d6b-84bd-449fbec3d0af" width="200">
-  <img src="https://github.com/user-attachments/assets/c1fb3ef2-1fcc-4157-9867-67920ef48c67" width="200">
-  <img src="https://github.com/user-attachments/assets/fd8ceef3-0556-457b-b23a-04d5044f6f87" width="200">
+  <!-- urutan dibalik: mulai dari gambar bawah ke atas -->
+  <img src="https://github.com/user-attachments/assets/17218a4f-c87f-42d5-8719-cbc86d39b4dc" width="250">
+  <img src="https://github.com/user-attachments/assets/267399f4-ba4f-4a1f-a80e-0b38364c0868" width="250">
+  <img src="https://github.com/user-attachments/assets/d8c193f2-30a6-4a08-9121-196963936718" width="250">
   <br>
-  <img src="https://github.com/user-attachments/assets/2e01a44a-9d21-4999-bedf-4a4c6f4e7f43" width="200">
-  <img src="https://github.com/user-attachments/assets/9e9f4781-502f-4f16-9a1a-2607e5b278f4" width="200">
-  <img src="https://github.com/user-attachments/assets/73bdc09b-3452-47f8-9be7-936c1a2448dd" width="200">
+  <img src="https://github.com/user-attachments/assets/cf47de57-0482-4615-b581-c65f76a9ffdf" width="250">
+  <img src="https://github.com/user-attachments/assets/78069e1e-e5da-437f-9a81-722a56b55af0" width="250">
+  <img src="https://github.com/user-attachments/assets/312274fa-a329-4549-9bb9-a2c03c2250b8" width="250">
   <br>
-  <img src="https://github.com/user-attachments/assets/c0347663-9016-4bfd-82cc-0bc3a935674d" width="200">
-  <img src="https://github.com/user-attachments/assets/7f07bd74-0dee-49fa-a4e3-c622c9818f6e" width="200">
-  <img src="https://github.com/user-attachments/assets/82cb1dc6-2be2-4d86-8d72-e8603f2207bd" width="200">
+  <img src="https://github.com/user-attachments/assets/46861838-0af0-4cbe-bea0-e08322c82ac2" width="250">
+  <img src="https://github.com/user-attachments/assets/3d0b9be9-7ff1-4d8b-8965-c98f0c1eff99" width="250">
+  <img src="https://github.com/user-attachments/assets/63a5ce30-0fc9-470a-bd69-f321b5b20729" width="250">
 </p>
+
+---
+
+### ⚙️ Fitur Utama
+- **Sign Up** → Pengguna membuat akun baru.  
+- **Login** → Masuk ke akun pengguna.  
+- **Daftar Menu** → Menampilkan makanan tradisional Indonesia lengkap dengan deskripsi singkat.  
+- **Order Makanan** → Pengguna memilih makanan dan mengisi alamat pengiriman.  
+- **Konfirmasi Pesanan** → Menampilkan pesan sukses dan konfirmasi pemesanan.
+
+---
+
+### 🧱 Teknologi yang Digunakan
+- Bahasa Pemrograman: **Kotlin (Android Studio)**  
+- UI Layout: **XML dengan Material Design 3**  
+- Data disimpan menggunakan **SharedPreferences**  
+- Struktur proyek mengikuti konsep **Activity-based Navigation**
+
+---
+
+### ✨ Pengembang
+**Nama:** Agung Permana  
+**NIM:** 1237050093  
+**Proyek:** UTS PAM — Aplikasi Order Food  
