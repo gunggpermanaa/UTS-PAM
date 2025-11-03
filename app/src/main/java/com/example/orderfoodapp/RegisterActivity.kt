@@ -20,7 +20,7 @@ class RegisterActivity : AppCompatActivity() {
         val edtUsername = findViewById<EditText>(R.id.edtUsername)
         val edtPassword = findViewById<EditText>(R.id.edtPassword)
         val btnRegister = findViewById<Button>(R.id.btnRegister)
-        val btnGoLogin = findViewById<Button>(R.id.btnGoLogin)
+
 
         btnRegister.setOnClickListener {
             val username = edtUsername.text.toString().trim()
@@ -44,10 +44,6 @@ class RegisterActivity : AppCompatActivity() {
                     Toast.makeText(this, "Gagal menyimpan data!", Toast.LENGTH_SHORT).show()
                 }
             }
-        }
-
-        btnGoLogin.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }

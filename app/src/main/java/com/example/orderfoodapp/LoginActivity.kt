@@ -20,7 +20,6 @@ class LoginActivity : AppCompatActivity() {
         val edtUsername = findViewById<EditText>(R.id.edtUsername)
         val edtPassword = findViewById<EditText>(R.id.edtPassword)
         val btnLogin = findViewById<Button>(R.id.btnLogin)
-        val btnGoRegister = findViewById<Button>(R.id.btnGoRegister)
 
         btnLogin.setOnClickListener {
             val username = edtUsername.text.toString().trim()
@@ -35,12 +34,12 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(Intent(this, MenuActivity::class.java))
                 finish()
             } else {
-                Toast.makeText(this, "Username atau password salah, atau belum terdaftar!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(
+                    this,
+                    "Username atau password salah, atau belum terdaftar!",
+                    Toast.LENGTH_SHORT
+                ).show()
             }
-        }
-
-        btnGoRegister.setOnClickListener {
-            startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
 }

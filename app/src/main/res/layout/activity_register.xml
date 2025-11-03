@@ -1,32 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:padding="24dp"
     android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
 
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="Register User"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Input Nama Lengkap -->
+    <EditText
+        android:id="@+id/edtFullName"
+        android:hint="Nama Lengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@drawable/edittext_outline"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName" />
+
+    <!-- Input Username -->
     <EditText
         android:id="@+id/edtUsername"
         android:hint="Username"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@drawable/edittext_outline"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName" />
 
+    <!-- Input Password -->
     <EditText
         android:id="@+id/edtPassword"
         android:hint="Password"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@drawable/edittext_outline"
+        android:layout_marginBottom="24dp" />
 
+    <!-- Tombol Register -->
     <Button
         android:id="@+id/btnRegister"
         android:text="Register"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/black"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:paddingVertical="12dp" />
 
-    <Button
-        android:id="@+id/btnGoLogin"
-        android:text="Sudah punya akun? Login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+    <!-- Tombol ke Login -->
+
 </LinearLayout>

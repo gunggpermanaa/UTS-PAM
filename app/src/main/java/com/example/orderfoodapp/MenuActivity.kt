@@ -10,16 +10,16 @@ import androidx.appcompat.app.AppCompatActivity
 class MenuActivity : AppCompatActivity() {
 
     private val makanan = arrayOf(
-        "Combro Bandung",
-        "Balager Bandung",
-        "Seblak Ceker",
-        "Nasi Goreng Spesial",
-        "Batagor Bandung",
-        "Cilok Goang",
+        "Combro",
+        "Cakwe",
+        "Seblak",
+        "Nasi Goreng",
+        "Batagor",
+        "Cilok",
         "Mie Kocok",
-        "Surabi Bandung",
-        "Karedok Sunda",
-        "Sate Maranggi"
+        "Surabi",
+        "Karedok",
+        "Sate"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

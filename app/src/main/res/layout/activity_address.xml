@@ -1,55 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@android:color/white"
     android:padding="24dp"
-    android:gravity="center"
-    android:background="#FFFFFF">
+    tools:context=".AlamatPengirimanActivity">
 
-    <TextView
-        android:id="@+id/tvTitleAlamat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alamat Pengiriman"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="24dp" />
-
-    <EditText
-        android:id="@+id/etNamaLengkap"
+    <LinearLayout
+        android:id="@+id/containerForm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nama Lengkap"
-        android:inputType="textPersonName"
-        android:layout_marginBottom="12dp"
-        android:background="@android:drawable/edit_text" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true">
 
-    <EditText
-        android:id="@+id/etAlamat"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Alamat"
-        android:inputType="textPostalAddress"
-        android:layout_marginBottom="12dp"
-        android:background="@android:drawable/edit_text" />
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/tvTitleAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pengiriman"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp"
+            android:gravity="center" />
 
-    <EditText
-        android:id="@+id/etPatokan"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Patokan alamat lengkap"
-        android:inputType="text"
-        android:layout_marginBottom="24dp"
-        android:background="@android:drawable/edit_text" />
+        <!-- Input Nama Lengkap -->
+        <EditText
+            android:id="@+id/etNamaLengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background" />
 
-    <Button
-        android:id="@+id/btnOrderKirim"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Order dan Kirim"
-        android:backgroundTint="#000000"
-        android:textColor="#FFFFFF"
-        android:padding="12dp" />
+        <!-- Input Alamat -->
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:inputType="textPostalAddress"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background" />
 
-</LinearLayout>
+        <!-- Input Patokan -->
+        <EditText
+            android:id="@+id/etPatokan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patokan alamat lengkap"
+            android:inputType="text"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Tombol Order dan Kirim -->
+        <Button
+            android:id="@+id/btnOrderKirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order dan Kirim"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:backgroundTint="#000000"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

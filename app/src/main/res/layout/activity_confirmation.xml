@@ -1,37 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="24dp"
-    android:gravity="center_horizontal"
-    android:background="#FFFFFF">
+    android:background="@android:color/white"
+    tools:context=".KonfirmasiActivity">
 
-    <TextView
-        android:id="@+id/tvSalam"
-        android:layout_width="wrap_content"
+    <!-- Kontainer teks di atas -->
+    <LinearLayout
+        android:id="@+id/layoutText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Halo,"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp">
 
-    <TextView
-        android:id="@+id/tvPesanKonfirmasi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Terima kasih sudah memesan dan mohon tunggu di lokasi sampai kurir mengirimkan pesanan anda"
-        android:textSize="16sp"
-        android:gravity="center"
-        android:layout_marginBottom="32dp" />
+        <TextView
+            android:id="@+id/tvSalam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halo,"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
 
+        <TextView
+            android:id="@+id/tvPesanKonfirmasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terima kasih sudah memesan dan mohon tunggu di lokasi sampai kurir mengirimkan pesanan anda"
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:lineSpacingExtra="2dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+    <!-- Tombol Kirim di bawah -->
     <Button
         android:id="@+id/btnKirim"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Kirim"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         android:backgroundTint="#000000"
-        android:textColor="#FFFFFF"
-        android:padding="12dp" />
+        android:paddingVertical="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp" />
 
-</LinearLayout>
+</RelativeLayout>
