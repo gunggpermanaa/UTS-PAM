@@ -14,7 +14,6 @@ Ketika pengguna memilih salah satu menu, aplikasi akan membuka halaman **Order**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a231edf8-32ac-4ea2-8363-223283111a36" width="300">
   <img src="https://github.com/user-attachments/assets/ce29f24f-7c00-47dd-b77c-3304b393b32e" width="300">
-  <img src="https://github.com/user-attachments/assets/4a0daa0c-63de-4b61-97a8-d169470005b9" width="300">
   <br>
   <img src="https://github.com/user-attachments/assets/ed8abfc5-f2f9-4625-a1da-7489d323257c" width="300">
   <img src="https://github.com/user-attachments/assets/520d9918-2597-4c84-a74c-2aa3d21fcfdf" width="300">
